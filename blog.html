@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post Details</title>
+    <style>
+      :root {
+        --pale-dogwood: #d5bdafff;
+        --isabelline: #edede9ff;
+        --atomic-tangerine: #e39774ff;
+        --pale-dogwood-lit: #D7D3C7;
+        --davys-gray: #565554ff;
+        --smoky-black: #151400ff;
+      }
+      * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Apple Chancery, cursive;
+        scroll-behavior: smooth;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px var(--atomic-tangerine);
+        border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: var(--atomic-tangerine);
+        border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--pale-dogwood);
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: var(--isabelline);
+        color: var(--smoky-black);
+        line-height: 1.6;
+      }
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: var(--pale-dogwood);
+        color: var(--smoky-black);
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1rem;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: var(--smoky-black);
+        font-weight: bold;
+      }
+
+
+      main {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      h1 {
+        color: var(--atomic-tangerine);
+      }
+
+      address {
+        font-style: italic;
+        color: var(--davys-gray);
+      }
+
+      img {
+        max-height: 350px;
+        max-width: 500px;
+        height: 350px;
+        width: 500px;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+      }
+
+      a {
+        color: var(--atomic-tangerine);
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      ul, ol {
+        margin: 1rem 0;
+        padding-left: 1.5rem;
+      }
+
+      footer {
+        background-color: var(--pale-dogwood);
+        color: var(--smoky-black);
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+      article{
+        padding-top: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h3>My Blog</h3>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+    <main>
+      
+      <article id="ai">
+        <h1>Artificial Intelligence</h1>
+        <address>By John Doe, <time datetime="2024-03-01">March 1, 2024</time></address>
+        <img src="/1.jpg" alt="Artificial Intelligence" />
+        <p>
+          Artificial Intelligence (AI) is transforming industries worldwide,
+          from healthcare to finance. It enables machines to learn from data
+          and make decisions, often outperforming human capabilities.
+        </p>
+        <p>
+          For more insights, visit the
+          <a href="https://www.ibm.com/artificial-intelligence">official AI page</a>.
+        </p>
+        <h2>Key Applications of AI:</h2>
+        <ul>
+          <li>Healthcare Diagnostics</li>
+          <li>Autonomous Vehicles</li>
+          <li>Natural Language Processing</li>
+        </ul>
+      </article>
+
+
+      <article id="blockchain">
+        <h1>Blockchain Technology</h1>
+        <address>By Jane Smith, <time datetime="2024-03-15">March 15, 2024</time></address>
+        <img src="/2.jpg" alt="Blockchain Technology" />
+        <p>
+          Blockchain ensures secure and transparent transactions by using
+          distributed ledger technology. It eliminates the need for intermediaries
+          in financial transactions.
+        </p>
+        <p>
+          Learn more at the
+          <a href="https://www.blockchain.com/">official Blockchain site</a>.
+        </p>
+        <h2>Benefits of Blockchain:</h2>
+        <ol>
+          <li>Enhanced Security</li>
+          <li>Improved Transparency</li>
+          <li>Cost Efficiency</li>
+        </ol>
+      </article>
+
+
+      <article id="cybersecurity">
+        <h1>Cybersecurity</h1>
+        <address>By Alex Brown, <time datetime="2024-04-01">April 1, 2024</time></address>
+        <img src="/3.jpg" alt="Cybersecurity" />
+        <p>
+          Cybersecurity involves protecting systems and networks from digital
+          attacks. It's crucial in preventing unauthorized access and data breaches.
+        </p>
+        <p>
+          Explore more at the
+          <a href="https://www.cisa.gov/cybersecurity">CISA Cybersecurity page</a>.
+        </p>
+        <h2>Top Cybersecurity Practices:</h2>
+        <ul>
+          <li>Regular Software Updates</li>
+          <li>Strong Passwords</li>
+          <li>Employee Training</li>
+        </ul>
+      </article>
+      <article id="cloud-computing">
+        <h1>Cloud Computing</h1>
+        <address>By Sarah Lee, <time datetime="2024-04-15">April 15, 2024</time></address>
+        <img src="/4.jpg" alt="Cloud Computing" />
+        <p>
+          Cloud computing enables businesses to scale and adapt faster, helping improve agility,
+          efficiency, and cost savings.
+        </p>
+        <p>
+          Learn more about cloud computing's potential from the 
+          <a href="https://aws.amazon.com/what-is-cloud-computing/">AWS Cloud page</a>.
+        </p>
+        <h2>Advantages of Cloud Computing:</h2>
+        <ul>
+          <li>Scalability</li>
+          <li>Cost Efficiency</li>
+          <li>Flexibility</li>
+        </ul>
+      </article>
+
+
+      <article id="data-science">
+        <h1>Data Science</h1>
+        <address>By Emily Johnson, <time datetime="2024-05-01">May 1, 2024</time></address>
+        <img src="/5.jpg" alt="Data Science" />
+        <p>
+          Data Science involves extracting insights from structured and unstructured data using
+          scientific methods, processes, algorithms, and systems.
+        </p>
+        <p>
+          For a deeper dive, check out the 
+          <a href="https://datascience.berkeley.edu/what-is-data-science/">UC Berkeley Data Science page</a>.
+        </p>
+        <h2>Key Components of Data Science:</h2>
+        <ul>
+          <li>Data Collection and Cleaning</li>
+          <li>Exploratory Data Analysis</li>
+          <li>Machine Learning</li>
+        </ul>
+      </article>
+
+
+      <article id="iot">
+        <h1>Internet of Things (IoT)</h1>
+        <address>By Michael Brown, <time datetime="2024-05-15">May 15, 2024</time></address>
+        <img src="/6.gif" alt="Internet of Things (IoT)" />
+        <p>
+          IoT connects physical devices to the internet, enabling them to collect and share data. 
+          This technology is transforming industries with real-time insights and automation.
+        </p>
+        <p>
+          Learn more about IoT at 
+          <a href="https://www.ibm.com/internet-of-things">IBM Internet of Things</a>.
+        </p>
+        <h2>Applications of IoT:</h2>
+        <ul>
+          <li>Smart Homes</li>
+          <li>Industrial IoT</li>
+          <li>Healthcare IoT</li>
+        </ul>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
