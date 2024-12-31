@@ -138,3 +138,12 @@
     background-color: #d5bdaf;
     color: #151400;
   }
+  @media (max-width: 768px) {
+
+  
+    header nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
