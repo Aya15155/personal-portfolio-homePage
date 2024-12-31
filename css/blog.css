@@ -1,0 +1,120 @@
+:root {
+    --pale-dogwood: #d5bdafff;
+    --isabelline: #edede9ff;
+    --atomic-tangerine: #e39774ff;
+    --pale-dogwood-lit: #D7D3C7;
+    --davys-gray: #565554ff;
+    --smoky-black: #151400ff;
+  }
+  * {
+    padding: 0px;
+    margin: 0px;
+    font-family: Apple Chancery, cursive;
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--atomic-tangerine);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--atomic-tangerine);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--pale-dogwood);
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--isabelline);
+    color: var(--smoky-black);
+    line-height: 1.6;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: var(--pale-dogwood);
+    color: var(--smoky-black);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: var(--smoky-black);
+    font-weight: bold;
+  }
+
+
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  h1 {
+    color: var(--smoky-black);
+  }
+  h2 {
+    color: var(--atomic-tangerine);
+  }
+  h3 {
+    color: var(--davys-gray);
+  }
+
+  address {
+    font-style: italic;
+    color: var(--davys-gray);
+  }
+
+  img {
+    max-height: 400px;
+    max-width: 500px;
+    height: 400px;
+    width: 500px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: var(--atomic-tangerine);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul, ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+
+  footer {
+    background-color: var(--pale-dogwood);
+    color: var(--smoky-black);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  article{
+    padding-top: 7%;
+  }
