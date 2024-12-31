@@ -31,12 +31,13 @@
   }
 
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    
     margin: 0;
-    background-color: var(--isabelline);
-    color: var(--smoky-black);
+    padding: 0;
   }
-
+  
   header {
     position: sticky;
     top: 0;
@@ -67,6 +68,30 @@
     font-weight: bold;
   }
 
+
+  h1, h2, h3 {
+    font-weight: 700;
+    margin: 0.5rem 0;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  time {
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    text-align: center;
+    margin: 1rem 0;
+    color: #666;
+  }
+  h1, h2, h3, p, ul, ol, address {
+    text-align: left;
+  }
   .main_frame {
     display: grid;
     grid-template-columns: 1fr 1fr;
