@@ -33,7 +33,8 @@
   body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    
+    background-color: var(--isabelline);
+    color: var(--smoky-black);
     margin: 0;
     padding: 0;
   }
