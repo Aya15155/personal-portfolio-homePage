@@ -225,6 +225,7 @@ h2#blogs {
 /* Media Queries */
 @media (max-width: 768px) {
   .main_frame {
+    height: 90vh;
     grid-template-columns: 1fr;
     grid-template-rows:1fr;
     grid-template-areas:
@@ -234,8 +235,8 @@ h2#blogs {
     display:none;
   }
   .main_content {
-    padding: 5vh 5vw;
-    max-height: min-content;
+    padding: 20vh 5vw;
+    
   }
 
   .img img {
@@ -258,10 +259,8 @@ h2#blogs {
     margin: 0.5rem 0;
   }
   
-  .main_frame{
-    max-height: 50vh;
-  }
-  img{
-    max-width: 1%;
+ 
+  h2#blogs{
+    padding-top: 35%;
   }
 }
